@@ -112,16 +112,44 @@ Tenant → Subscription → Resource Group → Resource
 - Private subnet → secure resources  
 
 ---
+##  Hands-On Execution
 
-##  Hands-On  
+### 🔹 Step 1: Create Resource Group via Azure Portal
 
-### Create Resource Group
+- Name: rg-day1-learning  
+- Region: East US  
 
-```bash
-az group create --name rg-day1-learning --location eastus
-```
+###  Resource Group Creation
+
+![Create Resource Group](screenshots/resource-group-creation.png)
 
 ---
+
+### 🔹 Step 2: Verify Resource Group in Portal
+
+![Resource Group Overview](screenshots/resource-group-overview.png)
+
+---
+
+### 🔹 Step 3: Create Resource Group using Azure CLI
+
+```bash
+az group create --name rg-saroj-azure-day1 --location centralindia
+```
+###  CLI Execution Output
+
+![CLI Output](screenshots/cli-resource-group.png)
+
+
+---
+
+###  Step 4: Final Verification
+
+![Resource Groups List](screenshots/resource-group-list.png)
+
+---
+
+ Successfully created and verified Resource Groups using both Portal and CLI
 
 ---
 
